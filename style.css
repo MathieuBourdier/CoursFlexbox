@@ -1,0 +1,63 @@
+body {   
+    display: flex;
+    text-align: center;
+    background-color: rgb(6, 6, 13);    
+    justify-content: center;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+ 
+.cadre {
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 800px;
+    border-radius: 10px;
+}
+
+.mathieu {
+    justify-content: space-around;
+}
+
+ .container {
+    gap:30px;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+  }
+
+.couleur {
+    color: rgb(156, 156, 21);
+}
+
+img {
+    border-radius: 50%;
+    height:200px;
+    margin: 50px; 
+}
+
+.pied {
+    display: flex;
+    color:rgb(24, 29, 17);
+    
+    margin-bottom: 0;
+
+}
+
+li {
+    width: 100px;
+    color: black;
+    background-color: rgb(58, 62, 58);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+a {
+    color: black;
+}
